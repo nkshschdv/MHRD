@@ -1,0 +1,8 @@
+1. firstly, you all need to import database, for that follow the steps:
+   a. start wamp/xxamp 
+   b. open browser and go to link localhost/phpmyadmin
+   c. create database with name "hack".
+   d. click on import and then select .sql file i have sent you
+      under database folder.
+2. unzip the folder and copy it in c:\wamp\www if wamp or
+   c:\xxamp\htdocs
