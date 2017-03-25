@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Untitled Document</title>
+<script type="text/javascript" src="dp/build/SalsaCalendar.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="dp/build/SalsaCalendar.min.css" media="all" />
+  <link rel="stylesheet" href="css/leavereq.css" />
+</head>
+
+<body>
+<div id="lrf">
+<div id="color">Leave Request Form</h3></div>
+<h5> Details Of Leave</h5>
+<div>
+  <div class="date">
+    <h7><strong>Leave Start</strong></h7>
+
+   <br /> <input type="text"
+           id="checkin"
+           class="salsa-calendar-input"
+           autocomplete="off"
+           name="arrival"
+           value=""
+    />
+  </div>
+
+  <div class="date">
+   <br /><h7><strong> Leave End</strong></h7>
+
+    <span id="nights-no">
+      (
+      <span class="counter"></span>
+      <span class="singular" style="display:none;">night</span>
+      <span class="plural" style="display:none;">nights</span>
+      )
+    </span>
+
+   <br /> <input type="text"
+           id="checkout"
+           class="salsa-calendar-input"
+           autocomplete="off"
+           name="departure"
+           value="" />
+   
+
+
+  </div>
+ <br /><div id="type"> <h7><strong>Leave Type</strong></h7>
+ <br /> <input type="radio" name="lt" value="Vacation" />Vacation 
+  <input type="radio" name="lt" value="Vacation" />Medical
+   <input type="radio" name="lt" value="Vacation" />Sick
+	 <input type="radio" name="lt" value="Vacation" />others
+  <div>
+ <br /><div><h7><strong>Reason</strong></h7><br> <textarea rows="6" cols="40" name="reason" id="reason" ></textarea>
+ </div>
+  </div>
+  <input type="Submit" name="lsub" value="Submit" id="submit" /> 
+</div> 
+</div>
+<script type="text/javascript">
+  var calendar_from = new SalsaCalendar({
+    inputId: 'checkin',
+    lang: 'en',
+    range: {
+      min: 'today'
+    },
+    calendarPosition: 'right',
+    fixed: false,
+    connectCalendar: true
+  });
+
+  var calendar_to = new SalsaCalendar({
+    inputId: 'checkout',
+    lang: 'en',
+    range: {
+      min: 'today'
+    },
+    calendarPosition: 'right',
+    fixed: false
+  });
+
+  new SalsaCalendar.Connector({
+    from: calendar_from,
+    to: calendar_to,
+    maximumInterval: 21,
+    minimumInterval: 1
+  });
+
+  new SalsaCalendar.NightsCalculator({
+    from: calendar_from,
+    to: calendar_to,
+    nightsNo: 'nights-no'
+  });
+ 
+</script>
+
+</body>
+</html>

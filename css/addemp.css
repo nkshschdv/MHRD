@@ -1,0 +1,273 @@
+*
+{
+	margin:0px;
+	padding:0px;
+}
+html,body
+{
+	height:100%;
+	width:100%;
+}
+.box
+{
+	height:100%;
+	width:100%;
+	/*background:grey;*/
+}
+.outer_page
+{
+	height:735px;
+	width:745px;
+	background:#3cc47c;
+	margin-left:400px;
+	margin-top:10px;
+}
+.text
+{
+	text-shadow:1px 1px grey;
+	color:#fff;
+	font-size:15px;
+	margin-left:250px;
+	padding-top:15px;
+	float:left;
+}
+img
+{
+	position:relative;
+	top:20px;
+	left:150px;
+	height:60px;
+	width:60px;
+	border-radius:50%;
+}
+.field
+{
+	position:relative;
+	top:15px;
+	left:20px;
+	color:red;
+}
+.one
+{
+	color:#fff;
+	font-size:25px;
+	margin-top:70px;
+	margin-left:150px;
+	float:left;
+
+}
+.two
+{
+	color:#fff;
+	font-size:25px;
+	margin-top:20px;
+	margin-left:150px;
+	float:left;
+
+}
+.three
+{
+	color:#fff;
+	font-size:25px;
+	margin-top:20px;
+	margin-left:150px;
+	float:left;
+
+}
+.four
+{
+	color:#fff;
+	font-size:25px;
+	margin-top:20px;
+	margin-left:150px;
+	float:left;
+
+}
+.five
+{
+	color:#fff;
+	font-size:25px;
+	margin-top:20px;
+	margin-left:150px;
+	float:left;
+
+}
+.six
+{
+	color:#fff;
+	font-size:25px;
+	margin-top:20px;
+	margin-left:150px;
+	float:left;
+
+}
+.seven
+{
+	color:#fff;
+	font-size:25px;
+	margin-top:20px;
+	margin-left:150px;
+	float:left;
+
+}
+.eight
+{
+	color:#fff;
+	font-size:25px;
+	margin-top:20px;
+	margin-left:150px;
+	float:left;
+}
+.nine
+{
+	color:#fff;
+	font-size:25px;
+	margin-top:20px;
+	margin-left:50px;
+	float:left;
+}
+.ten
+{
+	color:#fff;
+	font-size:25px;
+	margin-top:20px;
+	margin-left:150px;
+	float:left;
+}
+.user1
+{
+	height:40px;
+	width:190px;
+	margin-top:70px;
+	margin-left:180px;
+	float:left;
+}
+.user2
+{
+	height:40px;
+	width:190px;
+	margin-top:20px;
+	margin-left:168px;
+	float:left;
+}.user3
+{
+	height:40px;
+	width:190px;
+	margin-top:20px;
+	margin-left:156px;
+	float:left;
+}
+.user4
+{
+	height:40px;
+	width:190px;
+	margin-top:20px;
+	margin-left:190px;
+	float:left;
+}
+.user5
+{
+	height:40px;
+	width:190px;
+	margin-top:20px;
+	margin-left:118px;
+	float:left;
+}
+.user6
+{
+	height:40px;
+	width:190px;
+	margin-top:20px;
+	margin-left:82px;
+	float:left;
+}
+.user7
+{
+	height:40px;
+	width:190px;
+	margin-top:20px;
+	margin-left:119px;
+	float:left;
+}
+.user8
+{
+	height:40px;
+	width:190px;
+	margin-top:20px; 
+	float:left;
+}
+.user9
+{
+	height:40px;
+	width:190px;
+	margin-top:20px;
+	float:left;
+}
+.user10
+{
+	height:40px;
+	width:190px;
+	margin-top:20px;
+	margin-left:145px;
+	float:left;
+}
+.submit
+{
+	height:45px;
+	width:150px;
+	margin-top:10px;
+	margin-left:300px;
+	float:left;
+	background:#ccc;
+}
+.imp1
+{
+	position:relative;
+	top:80px;
+	left:10px;
+	color:red;
+	float:left;
+}
+#error1
+{
+	position:relative;
+	top:80px;
+	left:40px;
+	color:red;
+	font-weight: bold;
+	float:left;
+}
+.imp2
+{
+	position:relative;
+	top:30px;
+	left:10px;
+	color:red;
+	float:left;
+}
+#error2
+{
+	position:relative;
+	top:30px;
+	left:40px;
+	color:red;
+	font-weight: bold;
+	float:left;
+}
+.imp3
+{
+	position:relative;
+	top:30px;
+	left:-60px;
+	color:red;
+	float:left;
+}
+#error3
+{
+	position:relative;
+	top:30px;
+	left:40px;
+	color:red;
+	font-weight: bold;
+	float:left;
+}
