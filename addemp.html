@@ -1,0 +1,101 @@
+<html>
+<head>
+<title>Employeee Details</title>
+<link rel="stylesheet"type="text/css"href="css/addemp.css">
+</head>
+<script>
+	function hello1()
+	{
+		var a=document.getElementById("first").value;
+		var pattern=/^[a-z]{2,30}$/;
+				if(!pattern.test(a))
+		{
+			document.getElementById("error1").innerHTML="Invalid";
+		}
+		else
+		{
+			document.getElementById("error1").innerHTML="";
+		}
+	}
+	function hello2()
+	{
+		var b=document.getElementById("second").value;
+		var pattern=/^[a-z]{2,10}[0-9]{1,5}[@][a-z]{1,10}[.][a-z]{1,5}$/;
+				if(!pattern.test(b))
+		{
+			document.getElementById("error2").innerHTML="Invalid";
+		}
+		else
+		{
+			document.getElementById("error2").innerHTML="";
+		}
+	}
+	function hello3()
+	{
+		var c=document.getElementById("third").value;
+		var pattern=/^[a-z]{2,50}$/;
+				if(!pattern.test(c))
+		{
+			document.getElementById("error3").innerHTML="Invalid";
+		}
+		else
+		{
+			document.getElementById("error3").innerHTML="";
+		}
+	}
+</script>
+<body>
+	<div class="box">
+		<div class="outer_page">
+			<div class="text"><h1>ADD EMPLOYEE</h1></div><img src="emp.jpg"/>
+			<div class="field">Mandatory fields(*)</div>
+
+			<form method="post"action="next.html">
+			<h1 class="one">Name </h1>
+				<input type="text"placeholder="Name"required="required"class="user1"id="first"onblur="hello1()"><div class="imp1">*</div><span id="error1"></span>
+			
+			<h1 class="two">E-Mail</h1>
+				<input type="email"placeholder="Email"required="required"class="user2"id="second"onblur="hello2()"><div class="imp2">*</div><span id="error2"></span>
+			
+			<h1 class="three">Address</h1>
+				<input type="textarea"placeholder="Address"required="required"class="user3"id="third"onblur="hello3()"><div class="imp2">*</div><span id="error3"></span>
+			
+			<h1 class="four">DOB</h1>
+				<input type="date"placeholder="Username"required="required"class="user4"><div class="imp2">*</div>
+			
+			<h1 class="five">Designation</h1>
+				<select class="user5">
+					<option>Select</option>
+					<option>Teacher</option>
+					<option>Clerk</option>
+					<option>Assistant</option>
+					<option>Develper</option>
+				</select>
+			<div class="imp2">*</div>
+
+			<h1 class="six">Department ID</h1>
+				<select class="user6">
+					<option>Select</option>
+					<option>A1</option>
+					<option>A2</option>
+					<option>A3</option>
+					<option>A4</option>
+				</select>
+				<div class="imp2">*</div>
+
+			<h1 class="seven">Photograph</h1>
+				<input type="file"class="user7">
+			
+			<h1 class="eight">Male</h1><input type="radio"name="gender"required="required"class="user8">
+			
+			<h1 class="nine">Female</h1><input type="radio"name="gender"required="required"class="user9"><div class="imp3">*</div>
+
+			<h1 class="ten">Join Date</h1>
+				<input type="date"placeholder="Username"required="required"class="user10"><div class="imp2">*</div>
+
+				<input type="submit"class="submit">
+			</form>
+		</div>
+	</div>
+</body>
+</html>

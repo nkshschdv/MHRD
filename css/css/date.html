@@ -1,0 +1,21 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Untitled Document</title>
+</head>
+<form action="#" class="ws-validate">
+    <div class="form-row">
+        <!-- max of the first date equals value of the second --> <!-- mmin of the second date equals value of the first --> 
+        <input data-dependent-validation='{"from": "date-to", "prop": "max"}' type="date" id="date-from" placeholder="from" /> 
+        <input data-dependent-validation='{"from": "date-from", "prop": "min"}' type="date" id="date-to" placeholder="to" /> 
+    </div>
+	<div class="form-row">
+		<input type="submit" />
+	</div>
+</form>
+<p><a href="http://afarkas.github.io/webshim/demos/demos/cfgs/input-date.html" target="_blank">date configurator</a>
+</p>
+<body>
+</body>
+</html>

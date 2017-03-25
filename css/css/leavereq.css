@@ -1,0 +1,54 @@
+
+	#lrf{
+	       color:
+		   text-align:center;
+		   padding:20px;
+		   font-family:Arial, Helvetica, sans-serif;
+		   font-size:24px;
+		   width:600px;
+		   height:600px;
+		   background-color:#eaedf2;
+		   margin-left:500px;
+      }
+	  #color{
+	         background-color:#FF9900;
+			 }
+		#reason{
+		        background-color:#f9fafc;
+				}
+		#submit{
+				  width:150px;
+				  height:40px;
+				  border-radius:6px;
+				  color:#003300;
+				  background-color:#e5dfd5;
+				  
+				  }
+				  #checkin{
+				    padding:10px;
+					}
+					div{
+					//padding:10px;
+					}
+					input{
+					 margin-top:10px;
+					 }
+					 #checkout{
+					  padding:10px;
+					  }
+					  h7{
+					   font-family:"Times New Roman", Times, serif;
+					   font-size:16px;
+					   font-style:italic;
+			
+					   
+					 
+					   }
+					   #type{
+					        font-size:12px;
+							
+							}
+						#nights-no{
+						         font-size:14px;
+								 }
+							 
